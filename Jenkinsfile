@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker { 
-            image 'markhobson/maven-firefox:latest' // Pre-built image with Maven + Firefox
-            args  '--entrypoint="" -u root --shm-size=2g' 
-        }
-    }
+    agent any
 
     tools {
         maven 'maven'  // Ensure this matches the name configured in Jenkins

@@ -17,7 +17,7 @@ public class App {
     public static void main(String[] args) throws InterruptedException {
 
         FirefoxOptions options = new FirefoxOptions();
-        options.setBinary("/home/vboxuser/Desktop/lab1/firefox/firefox");
+        options.setBinary("/opt/firefox/firefox");
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");

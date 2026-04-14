@@ -14,7 +14,7 @@ import java.time.Duration;
 public class App {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/snap/bin/geckodriver");
         
 
         // Headless Firefox for Jenkins

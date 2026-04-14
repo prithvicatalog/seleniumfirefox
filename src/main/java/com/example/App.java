@@ -20,7 +20,7 @@ public class App {
         // Headless Firefox for Jenkins
         FirefoxOptions options = new FirefoxOptions();
 
-options.setBinary("/opt/firefox/firefox"); // force correct binary
+ 
 options.addArguments("--headless");
 
 //  VERY IMPORTANT for VM/Jenkins
